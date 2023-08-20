@@ -2,17 +2,18 @@ Restaurant
 
 - Put Customers in queue
 - Put Customers in a table
+- Process Order Queue to Chefs
+- Process Done Order to Servers
 
 Server
 
 - Gets orders from Customers in a table
 - Gives Customers order to the Chef
-- Gives Customers order from the Chef
+- Gives Customers order from the Order Queue
 
 Chef
 
-- Receives order from the Server and puts it in a queue
-- Gives the order back to the Server
+- Cooks Orders in the Order Queue
 
 Customer
 
